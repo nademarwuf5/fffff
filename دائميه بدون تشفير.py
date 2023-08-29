@@ -827,16 +827,16 @@ def menu(my_name,my_id):
 	print('')
 	print('\033[1;32m» 1- Fishing from friends : من الاصدقاء  ')
 	print('\033[1;32m» 2- Crack File : مــن مــلــف  ')		
-	#print('\033[1;32m» 0- login out : تسجيل خروج   ')
+	print('\033[1;32m» 0- login out : تبديل الكوكيز')
 		
 	_____alvino__adijaya_____ = input('\033[1;32m\n[»»] chose : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
-	elif _____alvino__adijaya_____ in ['3']:
+	elif _____alvino__adijaya_____ in ['5']:
 		follower()	
 	elif _____alvino__adijaya_____ in ['2']:
 		TakeFile()	
-	elif _____alvino__adijaya_____ in ['0']:
+	elif _____alvino__adijaya_____ in ['3']:
 		O()
 		exit()
 
