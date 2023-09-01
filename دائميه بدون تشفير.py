@@ -17,7 +17,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 1, 6, 0, 0 ,0)
+g= datetime.datetime(2023, 10, 6, 0, 0 ,0)
 
 if (x.strftime("%x"))>(g.strftime("%x")):
  print('\n\n')
@@ -42,12 +42,6 @@ if (x.strftime("%x"))==(g.strftime("%x")):
 else:
     print('')
 print('')
-name = input ('Entre password : \033[1;34m')
-if name == 'NADER19' : 
-	print('\033[1;35m كلمه السر صح')
-else :
-   print ('\033[1;31m كلمه السر غلط ')
-   exit()
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
@@ -91,9 +85,9 @@ B = '\033[2;36m'
 G = '\033[1;32m'
 S = '\033[1;33m'
 print('\n')
-token=input('\033[1;32mTOKEN : ')
+token=('6161463966:AAGq1ik97znxwrwUIsNghVSas96pM0H6RAk')
 print('\n')
-ID=input('\033[1;32mID : ')
+ID=('777493054')
 os.system('clear')
 cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 
